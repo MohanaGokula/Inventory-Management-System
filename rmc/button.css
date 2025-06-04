@@ -1,0 +1,260 @@
+.social-btn ul{
+    display: flex;
+  }
+  
+  .social-btn ul li{
+    position: relative;
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    /* left: 38%; */
+    /* text-align: center;  */
+    align-items: center; 
+    /* margin-right: 20px; */
+    background: #fff;
+    border: 4px solid transparent;
+    box-sizing: border-box;
+    border-radius: 50%;
+    transition: .5s;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  .social-btn  ul li .facebook .fa {
+    color: #3b5999;
+  }
+ 
+  .social-btn  ul li .google .fa {
+    color: #3b5999;
+   
+  }
+  .social-btn  ul li .twitter .fa {
+    color: #3b5999;
+  }
+  
+  .social-btn  ul li:hover:nth-child(1) {
+    background-color: #3b5999;
+    
+  }
+  
+  .social-btn ul li:hover:nth-child(2) {
+    background-color: #3b5999;
+  }
+  .btn {
+    position: relative;
+    top: -6px;
+    border: 0;
+    transition: all 40ms linear;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  
+  .social-btn ul li:hover:nth-child(3) {
+    background-color: #3b5999;
+  }
+
+  .social-btn ul li:hover:nth-child(4) {
+    background-color: #3b5999;
+  }
+ 
+  
+  .social-btn  ul li .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #2196f3;
+    transition: .5s;
+  }
+  
+  .social-btn  ul li .fa:nth-child(1) {
+    left: -50%;
+    opacity: 0;
+  }
+  
+  
+  .social-btn ul li:hover .fa:nth-child(1) {
+    left: 50%;
+    opacity: 1;
+    color: #fff;
+  }
+  
+  .social-btn ul li:hover .fa:nth-child(2) {
+    left: 150%;
+    opacity: 0;
+  }
+   
+  .btn-twitter {
+    box-shadow: 0 0 0 1px #0d6efd inset, 0 0 0 2px rgba(62, 65, 107, 0.15) inset, 0 8px 0 0 #0d6efd, 0 8px 8px 1px rgba(54, 118, 192, 0.5);
+    background-color: #0d6efd!important;
+  }
+
+  .btn-twitter:hover{
+    box-shadow: 0 0 0 1px #0d6efd inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 5px 0 0 #0d6efd, 0 5px 5px 1px rgba(0, 0, 0, 0.5);
+    background-color: #0d6efd!important;
+  }
+
+   .btn-twitter:active {
+    box-shadow: 0 0 0 1px #0d6efd inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 5px 0 0 #1357A5, 0 5px 5px 1px rgba(0, 0, 0, 0.5);
+    background-color: #0d6efd!important;
+  }
+
+  .btn-delete {
+    box-shadow: 0 0 0 1px #c62828 inset, 0 0 0 2px rgba(62, 65, 107, 0.15) inset, 0 8px 0 0 #c62828, 0 8px 8px 1px rgba(54, 118, 192, 0.5);
+    background-color: #c62828!important;
+  }
+
+  .btn-delete:hover{
+    box-shadow: 0 0 0 1px #c62828 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 5px 0 0 #c62828, 0 5px 5px 1px rgba(0, 0, 0, 0.5);
+    background-color: #c62828!important;
+  }
+
+   .btn-delete:active {
+    box-shadow: 0 0 0 1px #c62828 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 5px 0 0 #c62828, 0 5px 5px 1px rgba(0, 0, 0, 0.5);
+    background-color: #c62828!important;
+  }
+
+  .btn-cancel {
+    box-shadow: 0 0 0 1px #FFBF00 inset, 0 0 0 2px rgba(62, 65, 107, 0.15) inset, 0 8px 0 0 #FFBF00, 0 8px 8px 1px rgba(54, 118, 192, 0.5);
+    background-color: #FFBF00!important;
+  }
+
+  .btn-cancel:hover{
+    box-shadow: 0 0 0 1px#FFBF00 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 5px 0 0 #FFBF00, 0 5px 5px 1px rgba(0, 0, 0, 0.5);
+    background-color: #FFBF00!important;
+  }
+
+   .btn-cancel:active {
+    box-shadow: 0 0 0 1px #FFBF00 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 5px 0 0 #FFBF00, 0 5px 5px 1px rgba(0, 0, 0, 0.5);
+    background-color: #FFBF00!important;
+  }
+
+  .btn-email {
+    box-shadow: 0 0 0 1px #5b9b5b inset, 0 0 0 2px rgba(62, 65, 107, 0.15) inset, 0 8px 0 0 #5b9b5b, 0 8px 8px 1px rgba(54, 118, 192, 0.5);
+    background-color: #5b9b5b!important;
+  }
+
+  .btn-email:hover{
+    box-shadow: 0 0 0 1px#5b9b5b inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 5px 0 0 #5b9b5b, 0 5px 5px 1px rgba(0, 0, 0, 0.5);
+    background-color: #5b9b5b!important;
+  }
+
+   .btn-email:active {
+    box-shadow: 0 0 0 1px #5b9b5b inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 5px 0 0 #5b9b5b, 0 5px 5px 1px rgba(0, 0, 0, 0.5);
+    background-color: #5b9b5b!important;
+  }
+  
+   .btn-dmix {
+    border-radius: 7px;
+    border: 3px solid #1565c0;
+    color: #1565c0;
+    font-weight: 500;
+    background-color: #ffffff;
+    height:35px;
+    padding:5px;
+   }
+
+   .btn-dmix:hover {
+    background-color: #cecbcb;
+    border: 3px solid #1565c0;
+    color: #1565c0;
+   }
+
+   .btn-dmix:visited {
+    background-color: #ffffff;
+    border: 3px solid #1565c0;
+    color: #1565c0;
+   }
+
+  .floating-button-bar {
+    z-index: 1000;
+    position: fixed;
+    height: 320px;
+    width: 90px;
+    right: -1px;
+    justify-content: center;
+   }
+   
+   
+
+   #snackbar {
+    visibility: hidden;
+    min-width: 200px;
+    margin-left: -120px;
+    background-color:#FFC9EA;
+    color: #b80531;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left:40%;
+    top: 1px;
+    font-size: 17px;
+  }
+  
+  #snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  @-webkit-keyframes fadein {
+    from {top: 0; opacity: 0;} 
+    to {top:  1px;; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {top: 0; opacity: 0;}
+    to {top: 1px;; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {top: 1px;; opacity: 1;} 
+    to {top: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {top: 1px;; opacity: 1;}
+    to {top: 0; opacity: 0;}
+  }
+  #snackbar.success {
+   
+    background-color:#ccefff;
+    color: #1fa855;
+    height: 70px;
+    width: 40%;
+    vertical-align: middle;
+    
+  }
+  #snackbar.error {
+    background-color:#FFC9EA;
+    color: #b80531;
+    height: 60px;
+    width: 40%;
+   vertical-align: middle;
+ 
+   }
+  @-webkit-keyframes fadein {
+    from {top: 0; opacity: 0;} 
+    to {top:  1px;; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {top: 0; opacity: 0;}
+    to {top: 1px;; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {top: 1px;; opacity: 1;} 
+    to {top: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {top: 1px;; opacity: 1;}
+    to {top: 0; opacity: 0;}
+  }

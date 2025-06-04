@@ -1,0 +1,132 @@
+.App {
+  background-image: url(./img/images.jpg);
+  position:absolute;
+  background-attachment: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.App2 {
+  background-image: url(./img/images.jpg);
+  position:absolute;
+  background-attachment: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.table_thead
+{
+  color:#d1d4d6;
+  background-color: #bcbfc4;
+}
+
+input.inputBox{
+  font-size:18px;
+  padding:5px 8px 4px 8px;
+  border-radius:3px;
+  border:1px solid #666
+
+}
+.calendarWrap{
+  display: inline-block;
+  position: relative;
+}
+
+.CalendarElement{
+  position:absolute;
+  left:50%;
+  transform: translateX(-50%);
+  top:40px;
+  border:1px solid #ccc;
+  z-index:999;
+}
+.form-label {
+  color: black;
+  font-size: 18px;
+}
+
+
+
+.table_thead
+{
+  color:white;
+  background-color: #6e8fec;
+  /*align: center;*/
+}
+
+.form-label {
+  color: black;
+  font-size: 18px;
+}
+
+.table_header_custom {
+  text-align: center;
+  color: white !important;
+}
+
+.form-control-panel {
+  background-color: RGB(188,232,253) !important;
+  border-radius: 10px;
+  font-weight:bold !important;
+  font-family:Gill Sans,Gill Sans MT, Calibri,Trebuchet MS, sans-serif;
+}
+
+.item-list-table-container {
+  background-color: #FFFFFF;
+  opacity: 0.9;
+  border: 2px solid #000000;
+}
+
+.page-title {
+  color: #000000;
+  /* padding-top:50px; */
+  padding-top:20px;
+  text-align: center;
+  font-family:Gill Sans,Gill Sans MT, Calibri,Trebuchet MS, sans-serif;
+}
+
+.form-control{
+ display: block;
+ width: 100%;  
+ /* height: calc(1.5em+7.5rem+2px); */
+ font-size: 1rem;
+ font-weight: 400;
+ list-style: 1.5;
+ padding: .375rem .75rem;
+ border: 1px solid #ffff;
+}
+
+.mandatory-form-control {
+   
+  border-left:3px solid red !important;
+}
+/* 21.02.24 */
+.order-list {
+  border-collapse: collapse;
+  width: 100%;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: red;
+}
+.order-list th, .order-list td {
+  border: 1px solid black; /* Border between cells */
+  padding: 8px;
+  text-align: center;
+}
+.order-list th {
+  background-color: red;
+}
+
+.action-box {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 1px solid #6e8fec; /* Border color */
+  background-color: #6e8fec; /* Background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Show pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 18px; /* Font size */
+  text-align: center; /* Center text */
+}

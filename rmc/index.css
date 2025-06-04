@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
+#page-wrap {
+  padding-bottom: 2px;
+  padding-top: 2px;
+  /* padding-bottom: 10px;
+  padding-top: 10px; */
+}

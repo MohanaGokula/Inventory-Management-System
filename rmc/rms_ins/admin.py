@@ -1,0 +1,23 @@
+from django.contrib import admin
+from .models import *
+# Register your models here.
+admin.site.register(soft_delete_model)
+admin.site.register(entity_master)
+admin.site.register(user_tracking)
+admin.site.register(entity_company_detail)
+admin.site.register(profiles_master)
+admin.site.register(entity_plant_detail)
+admin.site.register(uom_master)
+admin.site.register(taxform_master)
+admin.site.register(product_master)
+admin.site.register(entity_vendor_detail)
+admin.site.register(numberings_master)
+admin.site.register(numberings_detail)
+admin.site.register(approval_setting_master)
+admin.site.register(entity_order_master)
+admin.site.register(entity_order_detail)
+admin.site.register(sales_purchase_master)
+admin.site.register(sales_order_master)
+admin.site.register(goods_movement_master)
+admin.site.register(gmr_master)
+admin.site.register( gmr_detail)
